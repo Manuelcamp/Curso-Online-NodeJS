@@ -6,3 +6,4 @@ Este modulo do curso foi bem focado nos fundamentos do node.js e sobre modulos, 
 3__CoreModules: Nesta pasta está uma simples demonstração importando e utilizando o modulo "path" para analisar qual a extensão de um arquivo, no caso o própio index.js.
 4__TerminalArgs: Criamos um programa que pelo terminal lê e atribui valores a váriaveis e exibe depois no terminal, veja o arquivo e o faça o exemplo de acordo com você para entender melhor na pratica
 5__ExternalModules: Utilizamso um external model chamado minimist para fazer o mesmo processo do terminalArgs de ler valores pelo terminal, porém, de maneira mais simples e didática.
+6__PraticeArgsModule: Utilizamos um modulo interno junto com um externo, dando um resultado elegante para o código e evoluindo a prática e a noções de Node, lembrando que o código conta com um exemplo de terminal para execução.
