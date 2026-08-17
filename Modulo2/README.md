@@ -14,3 +14,4 @@ Criamos um programa simples que lê a nota que já está definida, e com base ni
 11__EventLoop:Programa simples demonstrando como o node executa em sequência por meio da criação de 3 funções simples.
 12__EventEmitter: Criamos um evento customizado, e vemos novamente como funciona o sequencial do node.js.
 13__AsyncSync: Criamos dois programas, onde um vemos a execução de uma função sicrona, onde o programa espera para ser finalizado só após ser executado a função também e na assicrona onde o programa não espera o timeout e executa o log("Fim") antes da função assicrona ser finalizada.
+14__ErrosNode: Criamos dois programas, um testando o throw, e o outro o try_catch do node, executamos com o erro de proposito e mostramos o na tela.
