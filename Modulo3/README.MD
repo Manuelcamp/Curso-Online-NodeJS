@@ -7,3 +7,5 @@ Este modulo foi focado principalmente em Core Modules, http, path, fs, url, dado
 3__URLMODULE: Utilizamos o module URL para fazermos requisições a um endereço ficticio das informações que estavam no url e exibindo na tela.
 
 4__URLandHTTP: Utilizamos o URL para guarda uma váriavel nome e exibir posteriormente na tela uma saudação de acordo com o nome enviado na variável, sendo dado como um input pelo usuário, mas input em html.
+
+5__FSCORE: Utilizamos os conceitos ainda de HTML, e novamente o Modulo FS, para leitura de arquivos, e agora não mandamos só um texto, mas sim um arquivo HTML.
