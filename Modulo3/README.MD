@@ -9,3 +9,5 @@ Este modulo foi focado principalmente em Core Modules, http, path, fs, url, dado
 4__URLandHTTP: Utilizamos o URL para guarda uma váriavel nome e exibir posteriormente na tela uma saudação de acordo com o nome enviado na variável, sendo dado como um input pelo usuário, mas input em html.
 
 5__FSCORE: Utilizamos os conceitos ainda de HTML, e novamente o Modulo FS, para leitura de arquivos, e agora não mandamos só um texto, mas sim um arquivo HTML.
+
+6__WRITINGArchives: Agora quando o usuário escreve o nome, ele é escrito em um arquivo.txt, e não redirecionado para página de saudação, e caso escreva novamente, sera reescrito o nome antigo para o atual enviado.
