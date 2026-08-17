@@ -17,6 +17,6 @@ Por este ser meu segundo repositório de linguagem de programação, estou me es
 
 Cada módulo possui sua própria pasta com um `README.md` exclusivo, documentando o conteúdo abordado.
 
-- [Módulo 1](Modulo1/readme.md)
+- [Módulo 1](/Modulo1/readme.md)
 
 *(em construção — os próximos módulos serão adicionados conforme o curso avança)*
