@@ -1,22 +1,72 @@
-Este modulo do curso foi bem focado nos fundamentos do node.js e sobre modulos, agora segue o detalhamento de cada pasta:
-1__ModuloInterno : Criamos um modulo interno, importamos, e usamos para uma função de soma, que recebe como parametro dois números.
-2__ExportImport: é demonstrado uma novamo forma de fazer importação e exportação de modulos interno, simplificando a lógica e deixando em menos linhas.
-3__CoreModules: Nesta pasta está uma simples demonstração importando e utilizando o modulo "path" para analisar qual a extensão de um arquivo, no caso o própio index.js.
-4__TerminalArgs: Criamos um programa que pelo terminal lê e atribui valores a váriaveis e exibe depois no terminal, veja o arquivo e o faça o exemplo de acordo com você para entender melhor na pratica
-5__ExternalModules: Utilizamso um external model chamado minimist para fazer o mesmo processo do terminalArgs de ler valores pelo terminal, porém, de maneira mais simples e didática.
-6__PraticeArgsModule: Utilizamos um modulo interno junto com um externo, dando um resultado elegante para o código e evoluindo a prática e a noções de Node, lembrando que o código conta com um exemplo de terminal para execução.
-7__StudyingConsole: Aprendendo sobre algumas funções do console além de imprimir, como contagem, imprimir mais de uma variáveis e também de limpar o terminal.
-8__ConsoleChalk: Começamos Instalando o modulo Chalk na versão 4.1.2 para atender os requisitos do curso pelo comando: 
+# 📦 Módulo 2
+
+Este módulo do curso foi bem focado nos **fundamentos do Node.js** e sobre **módulos**. A seguir, o detalhamento de cada pasta:
+
+## 🗃️ Conteúdo
+
+### `1__ModuloInterno`
+Criamos um módulo interno, importamos e usamos para uma função de soma, que recebe como parâmetro dois números.
+
+### `2__ExportImport`
+É demonstrada uma nova forma de fazer importação e exportação de módulos internos, simplificando a lógica e deixando o código em menos linhas.
+
+### `3__CoreModules`
+Nesta pasta está uma simples demonstração importando e utilizando o módulo `path` para analisar qual a extensão de um arquivo — no caso, o próprio `index.js`.
+
+### `4__TerminalArgs`
+Criamos um programa que, pelo terminal, lê e atribui valores a variáveis e os exibe depois no terminal. Veja o arquivo e faça o exemplo de acordo com você para entender melhor na prática.
+
+### `5__ExternalModules`
+Utilizamos um módulo externo chamado `minimist` para fazer o mesmo processo do `TerminalArgs` — ler valores pelo terminal —, porém de maneira mais simples e didática.
+
+### `6__PraticeArgsModule`
+Utilizamos um módulo interno junto com um externo, dando um resultado elegante para o código e evoluindo a prática e as noções de Node. O código conta com um exemplo de execução via terminal.
+
+### `7__StudyingConsole`
+Aprendendo sobre algumas funções do `console` além de imprimir, como contagem, impressão de mais de uma variável e também limpeza do terminal.
+
+### `8__ConsoleChalk`
+Começamos instalando o módulo **Chalk** na versão `4.1.2`, para atender os requisitos do curso:
+
+```bash
 npm install chalk@4.1.2
-Criamos um programa simples que lê a nota que já está definida, e com base nisso diz se foi aprovado ou não, usando o chalk para mudar as cores de fundo ou da letra no terminal
-9__ReadingInputs: Começamos a ler inputs do usuário, criando um programa que lê e imprime de acordo com a resposta da pergunta, e uma condicional.
-10__Inquirer: Abstração de input sendo trabalhada, criamos um programa que lê dados do usuário, e calcula a média de notas dele.
-11__EventLoop:Programa simples demonstrando como o node executa em sequência por meio da criação de 3 funções simples.
-12__EventEmitter: Criamos um evento customizado, e vemos novamente como funciona o sequencial do node.js.
-13__AsyncSync: Criamos dois programas, onde um vemos a execução de uma função sicrona, onde o programa espera para ser finalizado só após ser executado a função também e na assicrona onde o programa não espera o timeout e executa o log("Fim") antes da função assicrona ser finalizada.
-14__ErrosNode: Criamos dois programas, um testando o throw, e o outro o try_catch do node, executamos com o erro de proposito e mostramos o na tela.
-Desafio__1: Para resolução do desafio usaremos a biblioteca inquirer novamente na versão 8.1.2 segue o npm install: 
+```
+
+Criamos um programa simples que lê uma nota já definida e, com base nisso, diz se o aluno foi aprovado ou não, usando o Chalk para mudar as cores de fundo ou da letra no terminal.
+
+### `9__ReadingInputs`
+Começamos a ler inputs do usuário, criando um programa que lê e imprime de acordo com a resposta da pergunta, utilizando também uma condicional.
+
+### `10__Inquirer`
+Abstração de input sendo trabalhada. Criamos um programa que lê dados do usuário e calcula a média das suas notas.
+
+### `11__EventLoop`
+Programa simples demonstrando como o Node executa em sequência, por meio da criação de 3 funções simples.
+
+### `12__EventEmitter`
+Criamos um evento customizado e vemos novamente como funciona a execução sequencial do Node.js.
+
+### `13__AsyncSync`
+Criamos dois programas: em um, vemos a execução de uma função **síncrona**, onde o programa espera ela ser finalizada para então continuar. No outro, a execução é **assíncrona**, onde o programa não espera o `timeout` e executa o `console.log("Fim")` antes da função assíncrona ser finalizada.
+
+### `14__ErrosNode`
+Criamos dois programas: um testando o `throw`, e o outro o `try/catch` do Node. Executamos com o erro de propósito e o exibimos na tela.
+
+### `Desafio__1`
+Para a resolução do desafio, usaremos novamente a biblioteca **Inquirer**, na versão `8.1.2`:
+
+```bash
 npm install inquirer@8.1.2
-e também a biblioteca chalk: 
+```
+
+E também a biblioteca **Chalk**:
+
+```bash
 npm install chalk@4.1.2
-Usaremos todas ferramentas aprendidas nas aulas anteriores para fazer duas perguntas ao usuário, como se fosse um "cadastro", perguntando seu nome e depois sua idade, após isso, exibiremos no terminal com a cor amarelo de fundo e preto de fonte os respectivos dados.
+```
+
+Usaremos todas as ferramentas aprendidas nas aulas anteriores para fazer duas perguntas ao usuário, como se fosse um "cadastro": primeiro o nome, depois a idade. Após isso, exibiremos no terminal os respectivos dados com fundo amarelo e fonte preta.
+
+---
+
+✅ **MÓDULO 2 — FINALIZADO!**
