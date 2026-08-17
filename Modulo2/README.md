@@ -9,3 +9,4 @@ Este modulo do curso foi bem focado nos fundamentos do node.js e sobre modulos, 
 8__ConsoleChalk: Começamos Instalando o modulo Chalk na versão 4.1.2 para atender os requisitos do curso pelo comando: 
 npm install chalk@4.1.2
 Criamos um programa simples que lê a nota que já está definida, e com base nisso diz se foi aprovado ou não, usando o chalk para mudar as cores de fundo ou da letra no terminal
+9__ReadingInputs: Começamos a ler inputs do usuário, criando um programa que lê e imprime de acordo com a resposta da pergunta, e uma condicional.
