@@ -13,3 +13,5 @@ Este modulo foi focado principalmente em Core Modules, http, path, fs, url, dado
 6__WRITINGArchives: Agora quando o usuário escreve o nome, ele é escrito em um arquivo.txt, e não redirecionado para página de saudação, e caso escreva novamente, sera reescrito o nome antigo para o atual enviado.
 
 7__UPDATING_FILE: Mesmo o arquivo que antes, porém, quando o usuário entrega um novo nome, ele não mais sobrescreve, mas sim, escreve na próxima linha por meio de uma quebra.
+
+8__DELETING_FILE: Criamos uma função simples com fs para remover um arquivo constante chamado "arquivo.txt" caso não tenha arquivo ele lança um erro, e caso tenha, ele remove pela função unlink e exibe no terminal a mensagem: "Arquivo Removido!"
