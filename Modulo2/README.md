@@ -10,4 +10,6 @@ Este modulo do curso foi bem focado nos fundamentos do node.js e sobre modulos, 
 npm install chalk@4.1.2
 Criamos um programa simples que lê a nota que já está definida, e com base nisso diz se foi aprovado ou não, usando o chalk para mudar as cores de fundo ou da letra no terminal
 9__ReadingInputs: Começamos a ler inputs do usuário, criando um programa que lê e imprime de acordo com a resposta da pergunta, e uma condicional.
-10__Inquirer: Abstração de input sendo trabalhada, criamos um programa que lê dados do usuário, e calcula a média dele.
+10__Inquirer: Abstração de input sendo trabalhada, criamos um programa que lê dados do usuário, e calcula a média de notas dele.
+11__EventLoop:Programa simples demonstrando como o node executa em sequência por meio da criação de 3 funções simples.
+12__EventEmitter:
