@@ -15,3 +15,5 @@ Este modulo foi focado principalmente em Core Modules, http, path, fs, url, dado
 7__UPDATING_FILE: Mesmo o arquivo que antes, porém, quando o usuário entrega um novo nome, ele não mais sobrescreve, mas sim, escreve na próxima linha por meio de uma quebra.
 
 8__DELETING_FILE: Criamos uma função simples com fs para remover um arquivo constante chamado "arquivo.txt" caso não tenha arquivo ele lança um erro, e caso tenha, ele remove pela função unlink e exibe no terminal a mensagem: "Arquivo Removido!"
+
+9__RENAME_FILES: Criamos um programa que lê duas váriaveis, um arquivo com nome antigo, e depois o novo nome para colocar nesse, e com isso ele renomeia esse arquivo pela função do fs.rename
