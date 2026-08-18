@@ -17,3 +17,5 @@ Este modulo foi focado principalmente em Core Modules, http, path, fs, url, dado
 8__DELETING_FILE: Criamos uma função simples com fs para remover um arquivo constante chamado "arquivo.txt" caso não tenha arquivo ele lança um erro, e caso tenha, ele remove pela função unlink e exibe no terminal a mensagem: "Arquivo Removido!"
 
 9__RENAME_FILES: Criamos um programa que lê duas váriaveis, um arquivo com nome antigo, e depois o novo nome para colocar nesse, e com isso ele renomeia esse arquivo pela função do fs.rename
+
+10__ROOTS: Adicionamos rotas básicas e simples, em que o servidor index.js recebe arquivos html, dentre a rotas que criamos incluem 3, index.html sendo a page principal, contato.html e 404.html, caso escreva algo com um endereço que não exista e o .html no final ele te manda para essa página, foi um sistema bem simples e rápido, mas funcional.
