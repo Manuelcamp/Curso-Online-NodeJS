@@ -27,3 +27,5 @@ Este modulo foi focado principalmente em Core Modules, http, path, fs, url, dado
 13__PATH_ABSOLUTE: Ensinado sobre como criar de forma dinâmica um caminho para guardar arquivos usando node pelo modulo PATH, e também como pegar o caminho 100% exato de um arquivo especifíco.
 
 14__DIRS: Criamos um algoritimo que verifica se tal pasta X existe de forma sicrona, caso não, criamos pelo método mkDir de fs, caso exista ele exibe no terminal "Existe!"
+
+15__MODULE_OS: Utilizamos o modulo OS para verificarmos a quantidade de CPUs na máquina exibindo no terminal, quantidade de memória ram livre, o diretório home da máquina e o sistema operacional.
