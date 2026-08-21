@@ -1,33 +1,57 @@
-Este modulo foi focado principalmente em Core Modules, http, path, fs, url, dados de arquivos externos dentre outros, segue a especificação de cada pasta e conteúdo trabalhado: 
+# 📦 Módulo 3
 
-1__HTTP: Aprendemos sobre os conceitos inicias de reposta e query com node puro e só a biblioteca HTTP para criação de um servidor web simples.
+Este módulo foi focado principalmente em **Core Modules**: `http`, `path`, `fs`, `url`, dados de arquivos externos, entre outros. A seguir, a especificação de cada pasta e o conteúdo trabalhado:
 
-2__HTML: Evoluimos a aplicação anterior, fazendo com que ela responda agora um HTML, permitindo tags de marcação superiores!
+## 🗃️ Conteúdo
 
-3__URLMODULE: Utilizamos o module URL para fazermos requisições a um endereço ficticio das informações que estavam no url e exibindo na tela.
+### `1__HTTP`
+Aprendemos os conceitos iniciais de resposta e query com Node puro, utilizando apenas a biblioteca `http` para a criação de um servidor web simples.
 
-4__URLandHTTP: Utilizamos o URL para guarda uma váriavel nome e exibir posteriormente na tela uma saudação de acordo com o nome enviado na variável, sendo dado como um input pelo usuário, mas input em html.
+### `2__HTML`
+Evoluímos a aplicação anterior, fazendo com que ela responda agora um HTML, permitindo o uso de tags de marcação.
 
-5__FSCORE: Utilizamos os conceitos ainda de HTML, e novamente o Modulo FS, para leitura de arquivos, e agora não mandamos só um texto, mas sim um arquivo HTML.
+### `3__URLMODULE`
+Utilizamos o módulo `url` para fazer requisições a um endereço fictício, obtendo as informações que estavam na URL e exibindo-as na tela.
 
-6__WRITINGArchives: Agora quando o usuário escreve o nome, ele é escrito em um arquivo.txt, e não redirecionado para página de saudação, e caso escreva novamente, sera reescrito o nome antigo para o atual enviado.
+### `4__URLandHTTP`
+Utilizamos o `url` para guardar uma variável de nome e exibir posteriormente na tela uma saudação de acordo com o nome enviado — dado como input pelo usuário, mas via um formulário HTML.
 
-7__UPDATING_FILE: Mesmo o arquivo que antes, porém, quando o usuário entrega um novo nome, ele não mais sobrescreve, mas sim, escreve na próxima linha por meio de uma quebra.
+### `5__FSCORE`
+Utilizamos ainda os conceitos de HTML, e novamente o módulo `fs`, para leitura de arquivos. Agora não enviamos apenas um texto, mas sim um arquivo HTML completo.
 
-8__DELETING_FILE: Criamos uma função simples com fs para remover um arquivo constante chamado "arquivo.txt" caso não tenha arquivo ele lança um erro, e caso tenha, ele remove pela função unlink e exibe no terminal a mensagem: "Arquivo Removido!"
+### `6__WRITINGArchives`
+Agora, quando o usuário escreve o nome, ele é gravado em um arquivo `.txt` em vez de ser redirecionado para a página de saudação. Caso escreva novamente, o nome antigo é reescrito pelo novo valor enviado.
 
-9__RENAME_FILES: Criamos um programa que lê duas váriaveis, um arquivo com nome antigo, e depois o novo nome para colocar nesse, e com isso ele renomeia esse arquivo pela função do fs.rename
+### `7__UPDATING_FILE`
+Mesmo arquivo do exercício anterior, porém agora, quando o usuário informa um novo nome, ele não sobrescreve mais o conteúdo — em vez disso, escreve na próxima linha por meio de uma quebra de linha.
 
-10__ROOTS: Adicionamos rotas básicas e simples, em que o servidor index.js recebe arquivos html, dentre a rotas que criamos incluem 3, index.html sendo a page principal, contato.html e 404.html, caso escreva algo com um endereço que não exista e o .html no final ele te manda para essa página, foi um sistema bem simples e rápido, mas funcional.
+### `8__DELETING_FILE`
+Criamos uma função simples com `fs` para remover um arquivo constante chamado `arquivo.txt`. Caso o arquivo não exista, um erro é lançado; caso exista, ele é removido pela função `unlink`, exibindo no terminal a mensagem: `"Arquivo Removido!"`.
 
-11__FILES_DETAILS: Como o nome diz, pegamos os detalhes de algum arquivo ou pasta que passamos o endereço e o nome do arquivo ou pasta, revelando para nós se é um arquivo(devolvendo um boolean), se é um diretório, se é um link simbólico, a data de criação com o horário, e o tamanho.
+### `9__RENAME_FILES`
+Criamos um programa que lê duas variáveis — o nome antigo de um arquivo e o novo nome a ser atribuído — e, com isso, renomeia o arquivo usando a função `fs.rename`.
 
-12__PATH_MODULE: Utilizamos o modulo path para verificarmos a informação de um caminho, dando informações como o caminho completo sem o nome do arquivo, só o nome do arquivo do caminho, e somente a extensão do arquivo.
+### `10__ROOTS`
+Adicionamos rotas básicas e simples, em que o servidor `index.js` retorna arquivos HTML. Entre as rotas criadas estão: `index.html` (página principal), `contato.html` e `404.html` — que é exibida caso o usuário acesse um endereço `.html` que não exista. Um sistema bem simples e rápido, porém funcional.
 
-13__PATH_ABSOLUTE: Ensinado sobre como criar de forma dinâmica um caminho para guardar arquivos usando node pelo modulo PATH, e também como pegar o caminho 100% exato de um arquivo especifíco.
+### `11__FILES_DETAILS`
+Como o nome sugere, obtemos os detalhes de um arquivo ou pasta a partir do caminho e nome informados, revelando se é um arquivo (retornando um `boolean`), se é um diretório, se é um link simbólico, a data de criação com horário e o tamanho.
 
-14__DIRS: Criamos um algoritimo que verifica se tal pasta X existe de forma sicrona, caso não, criamos pelo método mkDir de fs, caso exista ele exibe no terminal "Existe!"
+### `12__PATH_MODULE`
+Utilizamos o módulo `path` para verificar as informações de um caminho, obtendo dados como o caminho completo sem o nome do arquivo, somente o nome do arquivo e somente a extensão.
 
-15__MODULE_OS: Utilizamos o modulo OS para verificarmos a quantidade de CPUs na máquina exibindo no terminal, quantidade de memória ram livre, o diretório home da máquina e o sistema operacional.
+### `13__PATH_ABSOLUTE`
+Aprendemos a criar, de forma dinâmica, um caminho para armazenar arquivos usando o módulo `path`, e também como obter o caminho 100% exato de um arquivo específico.
 
-CHALLENGE_1: Utilizando o sistema de role play da udemy, conversamos com uma I.A que nós ensina configurar um servidor simples, que nós devolve uma resposta em HTML e utilizado o core module express, incrível e funcional!, incrível desafio!
+### `14__DIRS`
+Criamos um algoritmo que verifica, de forma síncrona, se determinada pasta X existe. Caso não exista, ela é criada pelo método `mkdir` do `fs`; caso exista, o terminal exibe a mensagem `"Existe!"`.
+
+### `15__MODULE_OS`
+Utilizamos o módulo `os` para verificar a quantidade de CPUs da máquina, exibindo no terminal a quantidade de memória RAM livre, o diretório home da máquina e o sistema operacional.
+
+### `CHALLENGE_1`
+Utilizando o sistema de role play da Udemy, conversamos com uma I.A. que nos ensina a configurar um servidor simples, que retorna uma resposta em HTML utilizando o core module **Express**. Um desafio incrível e funcional!
+
+---
+
+✅ **MÓDULO 3 — FINALIZADO!**
