@@ -23,3 +23,5 @@ Este modulo foi focado principalmente em Core Modules, http, path, fs, url, dado
 11__FILES_DETAILS: Como o nome diz, pegamos os detalhes de algum arquivo ou pasta que passamos o endereço e o nome do arquivo ou pasta, revelando para nós se é um arquivo(devolvendo um boolean), se é um diretório, se é um link simbólico, a data de criação com o horário, e o tamanho.
 
 12__PATH_MODULE: Utilizamos o modulo path para verificarmos a informação de um caminho, dando informações como o caminho completo sem o nome do arquivo, só o nome do arquivo do caminho, e somente a extensão do arquivo.
+
+13__PATH_ABSOLUTE: Ensinado sobre como criar de forma dinâmica um caminho para guardar arquivos usando node pelo modulo PATH, e também como pegar o caminho 100% exato de um arquivo especifíco.
