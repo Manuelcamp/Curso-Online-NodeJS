@@ -25,3 +25,12 @@ Cada módulo possui sua própria pasta com um `README.md` exclusivo, documentand
 
 
 *(em construção — os próximos módulos serão adicionados conforme o curso avança)*
+
+## 🏗️ Projetos
+
+Cada projeto prático desenvolvido durante o curso possui seu próprio repositório individual, com documentação completa.
+
+- **Projeto Bancário** — Projeto inicial do curso, reunindo todo o aprendizado do Módulo 1 até o Módulo 4. Focado em inputs no terminal, onde é possível consultar saldo, depositar, sacar, sair e criar conta.
+  🔗 [Repositório](https://github.com/Manuelcamp/ProjetoNodeJS-Accounts)
+
+*(em construção — os próximos projetos serão adicionados conforme forem desenvolvidos)*
