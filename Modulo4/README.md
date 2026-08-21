@@ -6,3 +6,5 @@ Módulo 4 Focado nos fundamentos de NPM
 
 
 3__NPM_MODULES: npm install - Verifica todos os módulos que não tem e precisa, necessário para quando clona um projeto do gitHub. isso foi demonstrado utilizando o modulo lodash de maneira simples, e foi criado um algoritmo simples de diference entre dois conjutos e intersecção de dois conjutos, igual o modelo matemático, de maneira simples.
+
+4__DEV_MODULES: --save-dev
