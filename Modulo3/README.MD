@@ -29,3 +29,5 @@ Este modulo foi focado principalmente em Core Modules, http, path, fs, url, dado
 14__DIRS: Criamos um algoritimo que verifica se tal pasta X existe de forma sicrona, caso não, criamos pelo método mkDir de fs, caso exista ele exibe no terminal "Existe!"
 
 15__MODULE_OS: Utilizamos o modulo OS para verificarmos a quantidade de CPUs na máquina exibindo no terminal, quantidade de memória ram livre, o diretório home da máquina e o sistema operacional.
+
+CHALLENGE_1: Utilizando o sistema de role play da udemy, conversamos com uma I.A que nós ensina configurar um servidor simples, que nós devolve uma resposta em HTML e utilizado o core module express, incrível e funcional!, incrível desafio!
