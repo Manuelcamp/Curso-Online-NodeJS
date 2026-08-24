@@ -12,3 +12,4 @@ Modulo 7 focado em Template Engine com Express, criando layouts, dados para view
 
 5__ELSE_HANDLEBAR: Aprendemos a utilizar o Else no handlebars e condicionais dentro do express sendo enviada para o front-end
 
+6__REPEAT: Aprendemos a estrutura de repetição EACH no handlebar para exibição de dados de maneira dinâmica.
