@@ -9,3 +9,6 @@ Modulo 7 focado em Template Engine com Express, criando layouts, dados para view
 3__DATA_FOR_VIEWS: Aprendemos comos mandar dados do back-end para o front-ed de maneira simples.
 
 4__CONDITIONALS: Utilizamos condicionais com o auth para omitir ou mostrar de acordo com o valor da variável auth, caso true, mostrava pela condicional if no home.handlebars.
+
+5__ELSE_HANDLEBAR: Aprendemos a utilizar o Else no handlebars e condicionais dentro do express sendo enviada para o front-end
+
