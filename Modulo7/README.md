@@ -1,25 +1,50 @@
-Modulo 7 focado em Template Engine com Express, criando layouts, dados para view, CSS com handlebars e etc...
+# 📦 Módulo 7
 
-//app.engine('handlebars', exphbs.engine())
+Módulo focado em **Template Engine** com Express, criando layouts, dados para views, CSS com Handlebars, entre outros.
 
-1__INSTAL_HANDLEBAR: Começamos instalando os module e iniciando o projeto com npm init -y, e npm install nodemon express express-handlebars e botando o script do start no package.json e fazendo o setup inicial do projeto.
+```js
+app.engine('handlebars', exphbs.engine())
+```
 
-2__CREATING_LAYOUTS: Criado layout inicial e também vendo como funciona a herança de atributos de view para outra e definido a view principal, aprendendo conceitos principalmentes de handlebar com o express.
+## 🗃️ Conteúdo
 
-3__DATA_FOR_VIEWS: Aprendemos comos mandar dados do back-end para o front-ed de maneira simples.
+### `1__INSTAL_HANDLEBAR`
+Começamos instalando os módulos e iniciando o projeto:
 
-4__CONDITIONALS: Utilizamos condicionais com o auth para omitir ou mostrar de acordo com o valor da variável auth, caso true, mostrava pela condicional if no home.handlebars.
+```bash
+npm init -y
+npm install nodemon express express-handlebars
+```
 
-5__ELSE_HANDLEBAR: Aprendemos a utilizar o Else no handlebars e condicionais dentro do express sendo enviada para o front-end
+Adicionamos o script de start no `package.json` e fizemos o setup inicial do projeto.
 
-6__REPEAT: Aprendemos a estrutura de repetição EACH no handlebar para exibição de dados de maneira dinâmica.
+### `2__CREATING_LAYOUTS`
+Criado o layout inicial, além de vermos como funciona a herança de atributos de uma view para outra, definindo a view principal. Aprendemos os conceitos principais do Handlebars integrado ao Express.
 
-7__WITH: Utilizamos a função with para acessar o objeto sem precisar ficar repetindo o nome dele, só colocando o atributos.
+### `3__DATA_FOR_VIEWS`
+Aprendemos como enviar dados do back-end para o front-end de maneira simples.
 
-8__PARTIALS: Apresentando e demonstrado a função partials, para repetição da visualização de dados, sendo ela versátil e útil para dados que aparecem mais de uma vez, mudando apenas as informações
+### `4__CONDITIONALS`
+Utilizamos condicionais com a variável `auth` para omitir ou exibir conteúdo de acordo com seu valor — quando `true`, o conteúdo era exibido através do `if` no `home.handlebars`.
 
-9__CSS_HANDLEBARS: Utilizamos o CSS junto do Handlebars para fazer um padrão de estilo por todos os htmls, versátil e rápido!
+### `5__ELSE_HANDLEBAR`
+Aprendemos a utilizar o `else` no Handlebars, com condicionais definidas no Express e enviadas para o front-end.
 
-CHALLENGE__1: Criamos um site usando CSS, Express, Handlebars, Views, que aparece uma home principal com uma lista de produtos, e após isso é permitido ao usuário ao clickar no botão de comprar ser redirecionado para página daquele produto especifíco sendo direcionado pelo id do próprio
+### `6__REPEAT`
+Aprendemos a estrutura de repetição `each` no Handlebars, para exibição de dados de maneira dinâmica.
 
-MODULO 7 FINALIZADO
+### `7__WITH`
+Utilizamos a função `with` para acessar um objeto sem precisar repetir seu nome, informando apenas os atributos.
+
+### `8__PARTIALS`
+Apresentada e demonstrada a função `partials`, usada para repetição da visualização de dados. Uma ferramenta versátil e útil para conteúdos que aparecem mais de uma vez, alterando apenas as informações.
+
+### `9__CSS_HANDLEBARS`
+Utilizamos CSS junto ao Handlebars para criar um padrão de estilo entre todos os HTMLs — versátil e rápido!
+
+### `CHALLENGE__1`
+Criamos um site usando CSS, Express, Handlebars e Views, exibindo uma página inicial (home) com uma lista de produtos. Ao clicar no botão de comprar, o usuário é redirecionado para a página daquele produto específico, direcionado pelo seu `id`.
+
+---
+
+✅ **MÓDULO 7 — FINALIZADO!**
