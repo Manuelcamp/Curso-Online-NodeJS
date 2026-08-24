@@ -7,4 +7,4 @@ Modulo 6 Iniciado com foco no Express, ensinando sobre rotas, integração com H
 
 3__HTML_EXPRESS: Criamos uma rota simple no sistema e mandamos um arquivo html para aparecer no servidor.
 
-4__UPDATE_PROBLEM:
+4__UPDATE_PROBLEM: Adicionamos um novo modulo nodemon para o problema de ter que reniciar o servidor depois de alterar alguma coisa nos arquivos do servidor, e colocamos um script de start com os seguintes parâmetros: "start": "nodemon ./index.js localhost 3020" e para rodar agora o servidor ao inves de usar o node index.js usamos npm start
