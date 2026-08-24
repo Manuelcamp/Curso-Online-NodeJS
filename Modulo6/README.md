@@ -13,3 +13,5 @@ Modulo 6 Iniciado com foco no Express, ensinando sobre rotas, integração com H
  5__MIDDLEWARE: Ensinado a criação de middwlare, quando devemos ter etapas no processo, seja de autenticação ou outras situações para definir a continuidade do usuário.
 
  6__PARAM_URL: Foi ensinado sobre como criar diferentes rotas e rotas dinâmicas que aceitam diferentes parametros como argumento, tudo de maneira iniciante sem realmente ter consultas em Bancos de dados.
+
+ 7__POST_PARAMS:
