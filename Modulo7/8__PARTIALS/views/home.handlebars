@@ -1,0 +1,22 @@
+    <h1>Olá Handlebars</h1>
+    {{#with user}}
+    <p>O nome do usuário é {{name}} {{sobrenome}} e ele tem {{age}} anos</p>
+    {{/with}}
+    
+    {{#if approved}}    
+    <p>
+    Cadastro aprovado com sucesso!    
+    </p>
+    {{else}}
+    <p>Realize seu Cadastro e não perca condições exclusivas!
+    </p>
+    {{/if}}
+    
+    <h2>I love {{palavra}}</h2>
+
+    <h1><a href="/blogpost">POSTS</a></h1>
+    {{#if auth}}
+    <p>
+        você está autenticado, <a href="./dashboards">clique aqui</a> para acessar área de membros
+    </p>
+    {{/if}}

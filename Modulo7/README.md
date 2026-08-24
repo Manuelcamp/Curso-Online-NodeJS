@@ -14,4 +14,6 @@ Modulo 7 focado em Template Engine com Express, criando layouts, dados para view
 
 6__REPEAT: Aprendemos a estrutura de repetição EACH no handlebar para exibição de dados de maneira dinâmica.
 
-7__WITH:
+7__WITH: Utilizamos a função with para acessar o objeto sem precisar ficar repetindo o nome dele, só colocando o atributos.
+
+8__PARTIALS: Apresentando e demonstrado a função partials, para repetição da visualização de dados, sendo ela versátil e útil para dados que aparecem mais de uma vez, mudando apenas as informações
