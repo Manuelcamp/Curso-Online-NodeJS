@@ -17,3 +17,7 @@ Modulo 6 Iniciado com foco no Express, ensinando sobre rotas, integração com H
  7__POST_PARAMS: Criamos um formulário simples em HTML e ainda usando o conceitos de rotas para criar a rota até ele e pede o nome e a idade, e após isso exibimos no console uma mensagem com o nome e idade dos dados enviados.
 
  8__ROOTS_MODULE: Criamos uma pasta externa para rooteamento, onde ficam as rotas que o programa principal acessa, deixando menos linhas de código no programa principal.
+
+ 9__CSS: Foi ensinado sobre como adicionar links em principal o css para estilização das páginas em rota.
+
+ 10__404_PAGE: Foi criado uma página para quando o usuário digita qualquer coisa depois / a famosa página 404 NOT FOUND.
