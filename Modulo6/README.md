@@ -1,25 +1,57 @@
-Modulo 6 Iniciado com foco no Express, ensinando sobre rotas, integração com HTML, CSS, Post e URL.
+# 📦 Módulo 6
 
+Módulo iniciado com foco no **Express**, ensinando sobre rotas, integração com HTML, CSS, requisições `POST` e URL.
 
-1__EXPRESS---1__INSTAL: Começamos o módulo instalando em uma subspasta da pasta 1__EXPRESS o modulo express e também iniciando um projeto, comando: npm init -y / npm install express
+## 🗃️ Conteúdo
 
-2__SETUP: Tendo aprendido importa e iniciar o projeto, agora utilizamos as funções iniciais de rotear, criar a porta e vincular ao listen do app, entender oq é o app que é nada mais que inicializar o framework do express, e entender o req e o res para enviar dados ou receber.
+### `1__EXPRESS---1__INSTAL`
+Começamos o módulo instalando, em uma subpasta da pasta `1__EXPRESS`, o módulo Express, além de iniciar o projeto:
 
-3__HTML_EXPRESS: Criamos uma rota simple no sistema e mandamos um arquivo html para aparecer no servidor.
+```bash
+npm init -y
+npm install express
+```
 
-4__UPDATE_PROBLEM: Adicionamos um novo modulo nodemon para o problema de ter que reniciar o servidor
- depois de alterar alguma coisa nos arquivos do servidor, e colocamos um script de start com os seguintes parâmetros: "start": "nodemon ./index.js localhost 3020" e para rodar agora o servidor ao inves de usar o node index.js usamos npm start
+### `2__SETUP`
+Tendo aprendido a importar e iniciar o projeto, agora utilizamos as funções iniciais de roteamento, criação da porta e vinculação ao `listen` do `app`. Entendemos o que é o `app` — nada mais do que a inicialização do framework Express — além dos objetos `req` e `res`, usados para receber e enviar dados.
 
- 5__MIDDLEWARE: Ensinado a criação de middwlare, quando devemos ter etapas no processo, seja de autenticação ou outras situações para definir a continuidade do usuário.
+### `3__HTML_EXPRESS`
+Criamos uma rota simples no sistema e enviamos um arquivo HTML para ser exibido no servidor.
 
- 6__PARAM_URL: Foi ensinado sobre como criar diferentes rotas e rotas dinâmicas que aceitam diferentes parametros como argumento, tudo de maneira iniciante sem realmente ter consultas em Bancos de dados.
+### `4__UPDATE_PROBLEM`
+Adicionamos o módulo **Nodemon** para resolver o problema de precisar reiniciar o servidor manualmente após alterar algo nos arquivos. Criamos um script de start com os seguintes parâmetros:
 
- 7__POST_PARAMS: Criamos um formulário simples em HTML e ainda usando o conceitos de rotas para criar a rota até ele e pede o nome e a idade, e após isso exibimos no console uma mensagem com o nome e idade dos dados enviados.
+```json
+"start": "nodemon ./index.js localhost 3020"
+```
 
- 8__ROOTS_MODULE: Criamos uma pasta externa para rooteamento, onde ficam as rotas que o programa principal acessa, deixando menos linhas de código no programa principal.
+Agora, para rodar o servidor, em vez de `node index.js`, usamos:
 
- 9__CSS: Foi ensinado sobre como adicionar links em principal o css para estilização das páginas em rota.
+```bash
+npm start
+```
 
- 10__404_PAGE: Foi criado uma página para quando o usuário digita qualquer coisa depois / a famosa página 404 NOT FOUND.
+### `5__MIDDLEWARE`
+Ensinada a criação de **middlewares**, utilizados quando precisamos de etapas intermediárias no processo — seja para autenticação ou outras situações que definem a continuidade (ou não) do fluxo do usuário.
 
- CHALLENGE_1
+### `6__PARAM_URL`
+Ensinado como criar diferentes rotas e **rotas dinâmicas**, que aceitam diferentes parâmetros como argumento — tudo de maneira introdutória, ainda sem consultas reais a bancos de dados.
+
+### `7__POST_PARAMS`
+Criamos um formulário simples em HTML e, utilizando os conceitos de rotas, configuramos a rota até ele, solicitando nome e idade. Após o envio, exibimos no console uma mensagem com os dados recebidos.
+
+### `8__ROOTS_MODULE`
+Criamos uma pasta externa para roteamento, onde ficam as rotas acessadas pelo programa principal, reduzindo a quantidade de código no arquivo principal.
+
+### `9__CSS`
+Ensinado como adicionar, no arquivo principal, os links de CSS para estilização das páginas das rotas.
+
+### `10__404_PAGE`
+Criada uma página para quando o usuário acessa qualquer caminho inexistente após a `/` — a famosa página **404 Not Found**.
+
+### `CHALLENGE_1`
+Desafio simples de criar duas páginas para testar os conhecimentos de rotas. Foram cometidos muitos erros ao longo do caminho, mas após algumas horas de correções tudo foi normalizado. O resultado foi uma página simples com tema de FNAF, com CSS e HTML gerados com auxílio de I.A., porém todas as rotas foram feitas à mão, junto com os ajustes necessários. Foi divertido, e é engraçado perceber como achamos que sabemos algo e erramos bastante até conseguir de verdade!
+
+---
+
+✅ **MÓDULO 6 — FINALIZADO!**
