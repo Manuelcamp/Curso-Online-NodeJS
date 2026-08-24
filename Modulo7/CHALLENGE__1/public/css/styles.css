@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f1117;
+    color: #f5f5f5;
+    min-height: 100vh;
+}
+
+
+/* =========================================
+   HOME
+   ========================================= */
+
+body > h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-top: 55px;
+    margin-bottom: 45px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+body > h1::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: #7c3aed;
+    border-radius: 10px;
+    margin: 15px auto 0;
+}
+
+.produtos {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.produto {
+    background: #181b24;
+    border: 1px solid #292d3a;
+    border-radius: 16px;
+
+    padding: 25px;
+
+    transition: 0.25s ease;
+
+    overflow: hidden;
+}
+
+.produto:hover {
+    transform: translateY(-7px);
+    border-color: #7c3aed;
+
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+/* NOME */
+
+.produto-nome {
+    font-size: 21px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+
+/* CATEGORIA */
+
+.produto-categoria {
+    color: #aeb4c0;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+
+/* PREÇO */
+
+.produto-preco {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/* BOTÃO COMPRAR */
+
+.produto-comprar {
+    margin: 0;
+}
+
+.produto-comprar a {
+    display: block;
+
+    width: 100%;
+
+    padding: 12px;
+
+    background: #7c3aed;
+    color: #ffffff;
+
+    text-align: center;
+    text-decoration: none;
+
+    border-radius: 9px;
+
+    font-weight: bold;
+
+    transition: 0.25s ease;
+}
+
+.produto-comprar a:hover {
+    background: #9333ea;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 6px 15px rgba(124, 58, 237, 0.35);
+}
+
+
+/* =========================================
+   PRODUTO INDIVIDUAL
+   ========================================= */
+
+body:has(.solo-imagem) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+
+    padding: 40px 20px;
+
+    text-align: center;
+}
+
+
+/* TÍTULO */
+
+.solo-titulo {
+    font-size: 38px;
+    color: #a855f7;
+    margin-bottom: 25px;
+}
+
+.solo-titulo::after {
+    content: "";
+    display: block;
+
+    width: 60px;
+    height: 4px;
+
+    background: #7c3aed;
+    border-radius: 10px;
+
+    margin: 14px auto 0;
+}
+
+
+/* NOME */
+
+.solo-nome {
+    width: 485px;
+    max-width: 90%;
+
+    padding: 20px;
+
+    background: #181b24;
+    border: 1px solid #292d3a;
+    border-radius: 15px;
+
+    color: #ffffff;
+
+    font-size: 28px;
+
+    margin-bottom: 22px;
+}
+
+
+/* IMAGEM */
+
+.solo-imagem {
+    width: 300px;
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 18px;
+
+    border: 2px solid #292d3a;
+
+    margin-bottom: 20px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45);
+
+    transition: 0.3s ease;
+}
+
+.solo-imagem:hover {
+    transform: scale(1.03);
+}
+
+
+/* CATEGORIA */
+
+.solo-categoria {
+    color: #b8bdc8;
+
+    font-size: 16px;
+
+    margin: 8px 0;
+}
+
+
+/* PREÇO */
+
+.preco {
+    color: #ffffff;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    margin: 18px 0;
+}
+
+
+/* BOTÃO */
+
+.solo-botao {
+    border: none;
+
+    padding: 13px 45px;
+
+    background: #7c3aed;
+    color: #ffffff;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    border-radius: 9px;
+
+    cursor: pointer;
+
+    transition: 0.25s ease;
+}
+
+.solo-botao:hover {
+    background: #9333ea;
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 7px 20px rgba(124, 58, 237, 0.3);
+}
+
+
+/* =========================================
+   RESPONSIVIDADE
+   ========================================= */
+
+@media (max-width: 900px) {
+
+    .produtos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    body > h1 {
+        font-size: 32px;
+    }
+
+    .produtos {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+
+    .solo-titulo {
+        font-size: 34px;
+    }
+
+    .solo-nome {
+        font-size: 24px;
+    }
+
+    .solo-imagem {
+        width: 260px;
+        height: 260px;
+    }
+
+}

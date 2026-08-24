@@ -17,3 +17,9 @@ Modulo 7 focado em Template Engine com Express, criando layouts, dados para view
 7__WITH: Utilizamos a função with para acessar o objeto sem precisar ficar repetindo o nome dele, só colocando o atributos.
 
 8__PARTIALS: Apresentando e demonstrado a função partials, para repetição da visualização de dados, sendo ela versátil e útil para dados que aparecem mais de uma vez, mudando apenas as informações
+
+9__CSS_HANDLEBARS: Utilizamos o CSS junto do Handlebars para fazer um padrão de estilo por todos os htmls, versátil e rápido!
+
+CHALLENGE__1: Criamos um site usando CSS, Express, Handlebars, Views, que aparece uma home principal com uma lista de produtos, e após isso é permitido ao usuário ao clickar no botão de comprar ser redirecionado para página daquele produto especifíco sendo direcionado pelo id do próprio
+
+MODULO 7 FINALIZADO
