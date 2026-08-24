@@ -22,6 +22,9 @@ Cada módulo possui sua própria pasta com um `README.md` exclusivo, documentand
 - [Módulo 3](/Modulo3/)
 - [Módulo 4](/Modulo4/)
 - [Módulo 6](/Modulo6/)
+- [Módulo 7](/Modulo7/)
+- [Módulo 8](/Modulo8/)
+
 
 
 
