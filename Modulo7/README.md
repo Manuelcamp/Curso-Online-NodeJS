@@ -6,4 +6,6 @@ Modulo 7 focado em Template Engine com Express, criando layouts, dados para view
 
 2__CREATING_LAYOUTS: Criado layout inicial e também vendo como funciona a herança de atributos de view para outra e definido a view principal, aprendendo conceitos principalmentes de handlebar com o express.
 
-3__DATA_FOR_VIEWS
+3__DATA_FOR_VIEWS: Aprendemos comos mandar dados do back-end para o front-ed de maneira simples.
+
+4__CONDITIONALS: Utilizamos condicionais com o auth para omitir ou mostrar de acordo com o valor da variável auth, caso true, mostrava pela condicional if no home.handlebars.
