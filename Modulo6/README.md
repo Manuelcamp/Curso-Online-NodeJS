@@ -10,4 +10,6 @@ Modulo 6 Iniciado com foco no Express, ensinando sobre rotas, integração com H
 4__UPDATE_PROBLEM: Adicionamos um novo modulo nodemon para o problema de ter que reniciar o servidor
  depois de alterar alguma coisa nos arquivos do servidor, e colocamos um script de start com os seguintes parâmetros: "start": "nodemon ./index.js localhost 3020" e para rodar agora o servidor ao inves de usar o node index.js usamos npm start
 
- 5__MIDDLEWARE: Ensinado a criação de middwlare, quando devemos ter etapas no processo, seja de autenticação ou outras situações para definir a continuidade do usuário
+ 5__MIDDLEWARE: Ensinado a criação de middwlare, quando devemos ter etapas no processo, seja de autenticação ou outras situações para definir a continuidade do usuário.
+
+ 6__PARAM_URL: Foi ensinado sobre como criar diferentes rotas e rotas dinâmicas que aceitam diferentes parametros como argumento, tudo de maneira iniciante sem realmente ter consultas em Bancos de dados.
