@@ -14,4 +14,6 @@ Modulo 6 Iniciado com foco no Express, ensinando sobre rotas, integração com H
 
  6__PARAM_URL: Foi ensinado sobre como criar diferentes rotas e rotas dinâmicas que aceitam diferentes parametros como argumento, tudo de maneira iniciante sem realmente ter consultas em Bancos de dados.
 
- 7__POST_PARAMS:
+ 7__POST_PARAMS: Criamos um formulário simples em HTML e ainda usando o conceitos de rotas para criar a rota até ele e pede o nome e a idade, e após isso exibimos no console uma mensagem com o nome e idade dos dados enviados.
+
+ 8__ROOTS_MODULE: Criamos uma pasta externa para rooteamento, onde ficam as rotas que o programa principal acessa, deixando menos linhas de código no programa principal.
