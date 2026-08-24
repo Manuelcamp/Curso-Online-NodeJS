@@ -21,3 +21,5 @@ Modulo 6 Iniciado com foco no Express, ensinando sobre rotas, integração com H
  9__CSS: Foi ensinado sobre como adicionar links em principal o css para estilização das páginas em rota.
 
  10__404_PAGE: Foi criado uma página para quando o usuário digita qualquer coisa depois / a famosa página 404 NOT FOUND.
+
+ CHALLENGE_1
