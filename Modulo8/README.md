@@ -5,3 +5,5 @@ Modulo 8 Iniciado! Sessão focada em como fazer a integração de Node.JS com My
 2__PUTTING_DATA: Fizemos inserção no banco de dados com Node.JS de forma básica, apenas um titulo, qtde de páginas de livro com o ID incrementável
 
 3__READ_DATA: Agora uma nova visualização e rota, que puxa os dados do MySQL e apresenta para o usuário na tela já formatado.
+
+4__PULLINGA_DATA:
