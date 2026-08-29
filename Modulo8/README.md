@@ -6,4 +6,6 @@ Modulo 8 Iniciado! Sessão focada em como fazer a integração de Node.JS com My
 
 3__READ_DATA: Agora uma nova visualização e rota, que puxa os dados do MySQL e apresenta para o usuário na tela já formatado.
 
-4__PULLINGA_DATA:
+4__PULLINGA_DATA:Criamos a possibilidade de pesquisar um livro por id, de forma dinâmica, seja clickando em cima do titulo do livro na aba livros, ou então pesquisando pela URL do próprio com o id depois de /books na página.
+
+5__FORMULARY_DATA:
