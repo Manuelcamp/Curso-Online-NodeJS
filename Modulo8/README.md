@@ -9,3 +9,5 @@ Modulo 8 Iniciado! Sessão focada em como fazer a integração de Node.JS com My
 4__PULLINGA_DATA:Criamos a possibilidade de pesquisar um livro por id, de forma dinâmica, seja clickando em cima do titulo do livro na aba livros, ou então pesquisando pela URL do próprio com o id depois de /books na página.
 
 5__FORMULARY_DATA: Criamos um formulário de edição do livro, agora quando clickar em cima dele e entrar na página do próprio podera clickar no botão editar embaixo e ser redirecionado para uma página, onde pode atualizar, o nome e quantidade de páginas do livro.
+
+6__DELETING_DATA:Criado a função de exclusão de maneira simples, apenas um botão de formulário com valor de excluir.
