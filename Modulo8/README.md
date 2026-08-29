@@ -11,3 +11,5 @@ Modulo 8 Iniciado! Sessão focada em como fazer a integração de Node.JS com My
 5__FORMULARY_DATA: Criamos um formulário de edição do livro, agora quando clickar em cima dele e entrar na página do próprio podera clickar no botão editar embaixo e ser redirecionado para uma página, onde pode atualizar, o nome e quantidade de páginas do livro.
 
 6__DELETING_DATA:Criado a função de exclusão de maneira simples, apenas um botão de formulário com valor de excluir.
+
+7__CONECTION_POOL:Trocamos a forma antiga de fazer a conexão com o banco de dados para uma melhor, onde fazemos um modulo de connection pool e exportamos apra o arquivo do index.js
