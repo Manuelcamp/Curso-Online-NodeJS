@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    padding: 1.5em 0 0.5em;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+/* Formulário */
+
+form.form {
+    max-width: 420px;
+    margin: 1em auto 3em;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2em;
+}
+
+.form-control label {
+    font-weight: 600;
+    margin-bottom: 0.4em;
+    color: #444;
+    font-size: 0.95em;
+}
+
+.form-control input[type="text"] {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-control input[type="text"]:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.15);
+}
+
+.form-control input[type="text"]::placeholder {
+    color: #aaa;
+}
+
+/* Checkbox */
+
+.form-checkbox {
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-checkbox input {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    accent-color: #4a90e2;
+}
+
+.form-checkbox label {
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+/* Botão */
+
+input[type="submit"] {
+    margin-top: 0.5em;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #3a7bc8;
+}
+
+/* Navbar */
+
+#navbar {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0.8em 1.5em;
+    background-color: #fff;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    margin-left: 1.5em;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+#navbar li a:hover {
+    color: #4a90e2;
+}
+
+/* Users */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+.container .item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+
+    /* Faz os cards se adaptarem */
+    flex: 1 1 300px;
+
+    /* Impede que fiquem pequenos demais */
+    min-width: 280px;
+
+    /* Permite que o card cresça com o conteúdo */
+    min-height: 85px;
+
+    background-color: #fff;
+}
+
+.item h2,
+.item p {
+    margin-bottom: 0.8em;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* Tablets */
+
+@media (max-width: 900px) {
+    .container .item {
+        flex: 1 1 45%;
+    }
+}
+
+/* Celulares */
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 1.5em;
+        padding: 1em 0 0.5em;
+    }
+
+    .container {
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .container .item {
+        flex: 1 1 100%;
+        min-width: 0;
+        max-width: 100%;
+    }
+
+    form.form {
+        margin: 1em 15px 3em;
+        padding: 1.5em;
+    }
+
+    #navbar {
+        padding: 0.8em 1em;
+    }
+
+    #navbar li {
+        margin-left: 0;
+    }
+}
+
+.pUserView{
+    text-align: center;
+}
