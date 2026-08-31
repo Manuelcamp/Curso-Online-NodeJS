@@ -10,4 +10,4 @@ Modulo 9 Iniciado, focado no Modulo Externo Sequelize e suas operações
 
 5__WHERE: Criamos a opção de ao aparecer a lista de usuários estar disponível o botão: ver detalhes, redirecionando para uma página com o usuário escolhido com mais detalhes
 
-6__REMOVING_DATA:
+6__REMOVING_DATA:Agora criamos um botão excluir dentro da rota home, e podemos excluir com base no id.
