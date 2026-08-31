@@ -11,3 +11,5 @@ Modulo 9 Iniciado, focado no Modulo Externo Sequelize e suas operações
 5__WHERE: Criamos a opção de ao aparecer a lista de usuários estar disponível o botão: ver detalhes, redirecionando para uma página com o usuário escolhido com mais detalhes
 
 6__REMOVING_DATA:Agora criamos um botão excluir dentro da rota home, e podemos excluir com base no id.
+
+7__UPDATE_FILES: Opção de atualizar os dados de determinado usuário criada, agora com isso, é possivel mudar dados como o nome, a profissão, e se ele quer receber ou não as promoções, inclusive arrumado o bug newsLetter, onde não está sendo enviada para o banco de dados devido a um erro de sintaxe.
